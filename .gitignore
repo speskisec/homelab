@@ -1,0 +1,30 @@
+# Niemals ins Repo: Zugangsdaten, Schlüssel, Konfig-Backups
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+.env
+*password*
+*passwort*
+*secret*
+
+# OPNsense-Backups enthalten Passwort-Hashes
+config-*.xml
+*.xml.bak
+
+# VM-Dateien (viel zu groß und privat)
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.ova
+*.ovf
+*.iso
+*.qcow2
+
+# System
+.DS_Store
+Thumbs.db
+desktop.ini
